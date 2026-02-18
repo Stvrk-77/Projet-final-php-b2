@@ -32,7 +32,7 @@ Site e-commerce développé en PHP natif avec MySQL pour le projet final du modu
 4. Démarrer Apache et MySQL
 
 **Mac - MAMP :**
-1. Télécharger MAMP depuis [https://www.mamp.info](https://www.mamp.info)
+1. Télécharger MAMP
 2. Installer et lancer MAMP
 3. Vérifier que PHP 8.0+ est sélectionné dans Préférences > PHP
 4. Cliquer sur "Start Servers"
@@ -57,7 +57,8 @@ sudo systemctl enable --now mysql
 2. **Cloner le projet dans htdocs :**
 ```bash
 cd /chemin/vers/htdocs
-git clone [VOTRE_REPO_GIT] php_exam
+git clone https://github.com/Stvrk-77/Projet-final-php-b2.git
+mv Projet-final-php-b2 php_exam
 ```
 
 ### Étape 3 : Configuration de la base de données
